@@ -1,0 +1,14 @@
+1. install the virtual library
+WIN py -m pip install virtualenv
+
+2. use the library
+WIN py -m venv venv
+
+*3*. launch the virtual environment (execut everytime I work on this project)
+drag "activate" file from Scipts folder into terminal
+or
+venv/Scripts/activate
+
+4. Instal flask
+WIN py -m pip install flask
+
