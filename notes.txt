@@ -4,11 +4,24 @@ WIN py -m pip install virtualenv
 2. use the library
 WIN py -m venv venv
 
+
 *3*. launch the virtual environment (execut everytime I work on this project)
 drag "activate" file from Scipts folder into terminal
 or
-venv/Scripts/activate
+venv\Scripts\activate
 
 4. Instal flask
 WIN py -m pip install flask
+py -m install flask pymongo "pymongo[srv]" certifi
+
+-PYMONGO METHODS-
+find({})
+fine_one_and_update
+insert_one
+delete_one
+delete_many
+update_one
+update_many
+
+
 
